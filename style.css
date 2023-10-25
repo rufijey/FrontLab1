@@ -1,0 +1,184 @@
+body {
+    background-color: #262626;
+    font-size: 16pt;
+    padding: 8px;
+}
+
+h1 {
+    color: #C0D904;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    background-color: #4F7302;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    color: #C0D904;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+li {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+li span {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    border: 1px solid #2B4017;
+    min-height: 32px;
+    height: 75px;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+    max-width: 250px;
+
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    line-height: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    width: 1400px;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #83A603;
+}
+
+mark {
+    background-color: #C0D904;
+}
+
+.text {
+    color: #ffffff;
+}
+
+.style1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 1.5em;
+    letter-spacing: normal;
+    word-spacing: 1px;
+    line-height: 125%;
+}
+
+.style2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.b1 {
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.b2 {
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.center-img {
+    margin-left: 25%;
+}
+
+.img {
+    height: 600px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+table, th, td {
+    font-size: 18px;
+    border: 1px solid rgb(155, 213, 68);
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.hr {
+    margin-top: 15px;
+    border-color: #C0D904;
+}
+
+.block-border {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-width: thin;
+    height: 70px;
+    border-style: solid;
+    border-color: #4F7302;
+}
+
+.footer-block {
+    width: 1400px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.little-block {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.little-footer {
+    width: 500px;
+    text-transform: none;
+}
+
+.block{
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
